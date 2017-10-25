@@ -1,0 +1,20 @@
+{
+  "name": "rxjs-pause-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch -p tsconfig.json --onSuccess \"node ./dist/index.js\"",
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^5.5.1",
+    "tsc-watch": "^1.0.8",
+    "typescript": "^2.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.47"
+  }
+}
